@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Family Book</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Family Book</h1>
@@ -14,23 +15,5 @@
 
     </body>
 
-    <script>
-    var images= [
-    "https://tse4.mm.bing.net/th?id=OIP.ioGFXk9gdpStt3F_E_NXVQHaFP&pid=Api&P=0&w=235&h=167","https://tse4.mm.bing.net/th?id=OIP.4tSr7qytY8IC3QbahaGnPwHaHa&pid=Api&P=0&w=300&h=300","https://tse4.mm.bing.net/th?id=OIP.UpLjPjjlJy-XwVtSdd9IOQHaHa&pid=Api&P=0&w=300&h=300","https://tse1.mm.bing.net/th?id=OIP.TB9d9S9S8ZBTE7uUcu2ObgHaJt&pid=Api&P=0&w=300&h=300"
-    ]
-    var names= [
-        "The Family Book","Prakash G","Hemavathy G","Somnath G",
-    ]
-    var i= 0;
-    function next(){
-        var no_Of_Members=3;
-        if(i>no_Of_Members){
-            i=0;
-        }
-        var updatedImage= images[i];
-        var updatedNames= names[i];
-        document.getElementById("album").src=updatedImage;
-        document.getElementById("people").src=updatedNames;
-    }
-    </script>
+    <script src="main.js"></script>
 </html>  
